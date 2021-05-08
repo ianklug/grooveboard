@@ -1,0 +1,18 @@
+[submodule "modules/keebio-components"]
+	path = modules/keebio-components
+	url = https://github.com/keebio/keebio-components
+[submodule "modules/Keebio-Parts.pretty"]
+	path = modules/Keebio-Parts.pretty
+	url = https://github.com/keebio/Keebio-Parts.pretty
+[submodule "modules/Type-C.pretty"]
+	path = modules/Type-C.pretty
+	url = https://github.com/ai03-2725/Type-C.pretty
+[submodule "modules/MX_Alps_Hybrid.pretty"]
+	path = modules/MX_Alps_Hybrid.pretty
+	url = https://github.com/ai03-2725/MX_Alps_Hybrid.pretty
+[submodule "modules/kicad-open-modules"]
+	path = modules/kicad-open-modules
+	url = https://github.com/brunoeagle/kicad-open-modules
+[submodule "modules/keyswitches.pretty"]
+	path = modules/keyswitches.pretty
+	url = https://github.com/daprice/keyswitches.pretty
