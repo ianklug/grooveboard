@@ -3,7 +3,7 @@ A four-key mechanical keyboard for rhythm games.
 
 Design by [ianklug](https://ianklug.com). Art by [clue](https://clue.graphics). Made with KiCad 5.
 
-Please clone this repository using the `--recurse-submodules` flag. Many of the required component and symbol libraries will not be included otherwise.
+Please clone this repository using the `--recurse-submodules` flag. Many of the required symbol and footprint libraries will not be included otherwise.
 
 ## Variations
 
