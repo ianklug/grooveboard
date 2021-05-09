@@ -23,14 +23,12 @@ Grooveboard is powered by QMK Firmware. You can find the default .hex file in th
 
 Zipped gerber files are present for each variation of Grooveboard. They are called `<variation>-gerbers-v1.zip`.
 
-The least expensive way to obtain a Grooveboard for yourself is from [JLCPCB](https://jlcpcb.com). However, they have a minimum order quantity of five boards.
+The least expensive way to obtain a Grooveboard for yourself if they are not currently on sale is likely from [JLCPCB](https://jlcpcb.com). However, they have a minimum order quantity of five boards.
 
-If you will be ordering from JLCPCB, use `<variation>-gerbers-jlcpcb-v1.zip`, and make sure to choose "Specify a location" under "Remove Order Number".
+If you will be ordering from JLCPCB, use `<variation>-gerbers-jlcpcb-v1.zip`, and choose "Specify a location" under "Remove Order Number".
 
-If you will be using JLCPCB's SMT assembly service, use `<variation>-bom.csv` and `<variation>-bottom-pos.csv` for your BOM and Centroid files.
+For JLCPCB's SMT assembly service, select assembly for the bottom of the board. Use `<variation>-bom.csv` and `<variation>-bottom-pos.csv` for your BOM and Centroid files. Note that you will still need to obtain and solder the USB-C connector yourself, as well as the hot-swap sockets or the switches themselves.
 
-You will need to solder the USB-C connector yourself, as well as either the switches or the hot-swap sockets.
-
-For the USB connector, use a [GCT USB4085](https://gct.co/connector/usb4085). 
+For the USB connector, use a [GCT USB4085](https://gct.co/connector/usb4085).
 
 For the hot-swap sockets, use [Kailh sockets](https://www.kailhswitch.com/mechanical-keyboard-switches/box-switches/mechanical-keyboard-switches-kailh-pcb-socket.html). Please note that the sockets are different for MX switches and Choc switches!
