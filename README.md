@@ -3,6 +3,8 @@ A four-key mechanical keyboard for rhythm games.
 
 Design by [ianklug](https://ianklug.com). Art by [clue](https://clue.graphics). Made with KiCad 5.
 
+Please clone this repository using the `--recurse-submodules` flag. Many of the required component and symbol libraries will not be included otherwise.
+
 ## Variations
 
 **Grooveboard:** Compatible with MX, Choc, or Alps switches. Switches must be soldered.
