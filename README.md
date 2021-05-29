@@ -5,8 +5,6 @@ Design by [ianklug](https://ianklug.com). Art by [clue](https://clue.graphics). 
 
 Please clone this repository using the `--recurse-submodules` flag. Many of the required symbol and footprint libraries will not be included otherwise.
 
-**Due to global chip shortages, the final production designs for Grooveboard have NOT yet been fully tested. Manufacture at your own risk!**
-
 ## Variations
 
 **Grooveboard:** Compatible with MX, Choc, or Alps switches. Switches must be soldered.
@@ -22,6 +20,8 @@ The same firmware should work on all variations of Grooveboard.
 Grooveboard is powered by [QMK Firmware](https://qmk.fm). You can find the default .hex file in the `firmware` directory.
 
 ## Ordering
+
+**Due to global chip shortages, the final production designs for Grooveboard have NOT yet been fully tested. Manufacture at your own risk!**
 
 Zipped gerber files are present for each variation of Grooveboard. They are called `<variation>-gerbers-v1.zip`.
 
