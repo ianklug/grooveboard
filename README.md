@@ -19,7 +19,7 @@ Please clone this repository using the `--recurse-submodules` flag. Many of the 
 
 The same firmware should work on all variations of Grooveboard.
 
-Grooveboard is powered by QMK Firmware. You can find the default .hex file in the `firmware` directory.
+Grooveboard is powered by [QMK Firmware](https://qmk.fm). You can find the default .hex file in the `firmware` directory.
 
 ## Ordering
 
