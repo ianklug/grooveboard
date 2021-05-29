@@ -5,6 +5,8 @@ Design by [ianklug](https://ianklug.com). Art by [clue](https://clue.graphics). 
 
 Please clone this repository using the `--recurse-submodules` flag. Many of the required symbol and footprint libraries will not be included otherwise.
 
+**Due to global chip shortages, the final production designs for Grooveboard have NOT yet been fully tested. Manufacture at your own risk!**
+
 ## Variations
 
 **Grooveboard:** Compatible with MX, Choc, or Alps switches. Switches must be soldered.
