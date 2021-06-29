@@ -5,7 +5,7 @@ Design by [ianklug](https://ianklug.com). Art by [clue](https://clue.graphics). 
 
 Please clone this repository using the `--recurse-submodules` flag. Many of the required symbol and footprint libraries will not be included otherwise.
 
-**UPDATE 2021-06-29: Due to parts availability, alternate versions of Grooveboard MX and Grooveboard Choc have been added using the larger AU variant of the microcontroller. These are the designs that will be used for the upcoming limited production run of Grooveboard. Please note that the AU variants require different firmware to the original MU versions as the switches are wired to different MCU pins.**
+**UPDATE 2021-06-29: Due to parts availability, alternate versions of Grooveboard MX and Grooveboard Choc have been added using the larger AU variant of the microcontroller. These are the designs that will be used for the upcoming limited production run of Grooveboard. Please note that the AU versions require different firmware to the original MU versions as the switches are wired to different MCU pins.**
 
 ## Variations
 
