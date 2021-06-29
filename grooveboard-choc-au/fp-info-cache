@@ -1,4 +1,4 @@
-17879738937697352
+17923163854744849
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -76348,73 +76348,157 @@ varistor SIOV
 0
 2
 2
-chocboard
-C_0805_2012Metric
-Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
-capacitor
-0
-2
-2
-chocboard
-D_SOD123
+grooveboard
+grooveboard-logo
 
 
 0
-2
-2
-chocboard
-Kailh-PG1350-1.5u-NoLED
+0
+0
+grooveboard
+left-arrow
 
 
 0
-2
-2
-chocboard
-Kailh-PG1350-1.25u-NoLED
+0
+0
+grooveboard
+qmk-logo
 
 
 0
-2
-2
-chocboard
-Kailh-PG1350-1u-NoLED
-
-
+0
+0
+keyswitches
+Kailh_socket_MX
+MX-style keyswitch with Kailh socket mount
+MX,cherry,gateron,kailh,pg1511,socket
 0
 2
 2
-chocboard
-LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm
-https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf
-LED RGB NeoPixel
+keyswitches
+Kailh_socket_MX_optional
+MX-style keyswitch with support for optional Kailh socket
+MX,cherry,gateron,kailh,pg1511,socket
 0
 4
+2
+keyswitches
+Kailh_socket_MX_optional_platemount
+MX-style keyswitch with support for optional Kailh socket
+MX,cherry,gateron,kailh,pg1511,socket
+0
 4
-chocboard
-MountingHole_2.5mm_Pad_Oval
-Mounting Hole 2.5mm
-mounting hole 2.5mm
+2
+keyswitches
+Kailh_socket_MX_optional_reversible
+MX-style keyswitch with support for reversible optional Kailh socket
+MX,cherry,gateron,kailh,pg1511,socket
 0
-1
-1
-chocboard
-MountingHole_2.5mm_Pad_Oval_Long
-Mounting Hole 2.5mm
-mounting hole 2.5mm
+8
+2
+keyswitches
+Kailh_socket_MX_optional_reversible_platemount
+MX-style keyswitch with support for reversible optional Kailh socket
+MX,cherry,gateron,kailh,pg1511,socket
 0
-1
-1
-chocboard
-R_0805
-SMT, 2012, 0805
-SMT, 2012, 0805
+8
+2
+keyswitches
+Kailh_socket_MX_platemount
+MX-style keyswitch with Kailh socket mount
+MX,cherry,gateron,kailh,pg1511,socket
 0
 2
 2
-chocboard
-logo_small
-
-
+keyswitches
+Kailh_socket_MX_reversible
+MX-style keyswitch with reversible Kailh socket mount
+MX,cherry,gateron,kailh,pg1511,socket
+0
+4
+2
+keyswitches
+Kailh_socket_MX_reversible_platemount
+MX-style keyswitch with reversible Kailh socket mount
+MX,cherry,gateron,kailh,pg1511,socket
+0
+4
+2
+keyswitches
+Kailh_socket_PG1350
+Kailh "Choc" PG1350 keyswitch socket mount
+kailh,choc
+0
+2
+2
+keyswitches
+Kailh_socket_PG1350_optional
+Kailh "Choc" PG1350 keyswitch with optional socket mount
+kailh,choc
+0
+4
+2
+keyswitches
+Kailh_socket_PG1350_optional_reversible
+Kailh "Choc" PG1350 keyswitch with optional socket mount, reversible
+kailh,choc
+0
+7
+2
+keyswitches
+Kailh_socket_PG1350_reversible
+Kailh "Choc" PG1350 keyswitch reversible socket mount
+kailh,choc
+0
+4
+2
+keyswitches
+SW_MX
+MX-style keyswitch
+MX,cherry,gateron,kailh
+0
+2
+2
+keyswitches
+SW_MX_reversible
+MX-style keyswitch, reversible
+MX,cherry,gateron,kailh
+0
+4
+2
+keyswitches
+SW_MX_reversible_minimal
+MX-style keyswitch, reversible, without pcb-mount holes
+MX,cherry,gateron,kailh
+0
+4
+2
+keyswitches
+SW_PG1350
+Kailh "Choc" PG1350 keyswitch
+kailh,choc
+0
+2
+2
+keyswitches
+SW_PG1350_reversible
+Kailh "Choc" PG1350 keyswitch, able to be mounted on front or back of PCB
+kailh,choc
+0
+3
+2
+keyswitches
+SW_PG1350_reversible_rotatable
+Kailh "Choc" PG1350 keyswitch, able to be mounted on front or back of PCB and/or rotated 90 degrees (see README)
+kailh,choc
+0
+6
+2
+keyswitches
+Stabilizer_MX_2u
+MX-style stabilizer mount
+MX,cherry,gateron,kailh,pg1511,stabilizer,stab
 0
 0
 0
@@ -76731,7 +76815,7 @@ kicad-open-modules
 
 
 0
-2
+3
 2
 kicad-open-modules
 1206
@@ -77393,6 +77477,13 @@ CFP5
 2
 kicad-open-modules
 CGGP.18.4.C.02
+
+
+0
+2
+2
+kicad-open-modules
+CGRM400x-G
 
 
 0
@@ -78183,6 +78274,13 @@ MINI_USB
 9
 6
 kicad-open-modules
+MLZ2012
+Inductor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 80, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+inductor
+0
+2
+2
+kicad-open-modules
 MMA7455L
 
 
@@ -78252,6 +78350,20 @@ connector Microfit 02x10 angled 3mm pitch
 0
 20
 20
+kicad-open-modules
+MountingHole_1.15mm_NonCopper
+
+
+0
+0
+0
+kicad-open-modules
+MountingHole_2mm_NonCopper
+
+
+0
+0
+0
 kicad-open-modules
 N25Q512A13GF840E
 
@@ -78687,6 +78799,13 @@ SMA
 2
 2
 kicad-open-modules
+SMA_Amphenol_132289_EdgeMount_Modified
+http://www.amphenolrf.com/132289.html
+SMA
+0
+5
+2
+kicad-open-modules
 SMA_PCB_EDGE
 
 
@@ -79023,6 +79142,13 @@ TL3315NF100Q
 4
 2
 kicad-open-modules
+TL3365AF180QG
+
+
+0
+4
+2
+kicad-open-modules
 TM-8764-2
 
 
@@ -79148,6 +79274,13 @@ TYS50406R8M-10
 0
 2
 2
+kicad-open-modules
+TestPoint_THTPad_D1.6mm_Drill1.15mm
+
+
+0
+1
+1
 kicad-open-modules
 Texas_RGY_R-PVQFN-N16_EP2.05x2.55mm
 QFN, 24 Pin (http://www.ti.com/lit/ds/symlink/bq24133.pdf#page=40)
@@ -79309,6 +79442,13 @@ WP7609
 0
 239
 238
+kicad-open-modules
+WSON-10-1EP_2.75x2.0mm_P0.5mm_EP1.2x2mm
+WSON, 10 Pin (http://www.ti.com/lit/gpn/tps63030#page=24), generated with kicad-footprint-generator ipc_noLead_generator.py
+WSON NoLead
+0
+17
+11
 kicad-open-modules
 WSON8
 
