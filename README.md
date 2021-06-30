@@ -23,7 +23,9 @@ Grooveboard is powered by [QMK Firmware](https://qmk.fm). You can find the defau
 
 Precompiled firmwares are provided for the two versions of Grooveboard (AU and MU). Please choose the firmware for the version of grooveboard that you have - for the moment they are not cross-compatible.
 
-If you are interested in dynamically modifying your keymap without reflashing your board, firmwares compatible with [VIA Configurator](https://caniusevia.com) have also been provided. As of now they are not available in VIA by default, but you can still use it.
+To flash firmware, follow the instructions on the [QMK Flashing Firmware page](https://docs.qmk.fm/#/newbs_flashing). You can put the keyboard into bootloader mode by pressing the button on the underside of the board.
+
+If you are interested in dynamically modifying your keymap without reflashing your board, firmwares compatible with [VIA Configurator](https://caniusevia.com) have also been provided. As of now they are not available in VIA by default, but you can still use it. First, flash the keyboard with the VIA version of its firmware.
 
 In VIA's Settings, switch on "Show Design Tab." Then choose the new "Design" tab and click the large "Upload" button to add a draft definition for Grooveboard. This draft definition, `ianklug-grooveboard-via-definition.json`, can be found in the `firmware` directory. Once you have done this, the keyboard should be detected by VIA when plugged in, and you can change its keymap dynamically.
 
