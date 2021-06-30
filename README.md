@@ -1,13 +1,11 @@
 # Grooveboard
 A four-key mechanical keyboard for rhythm games.
 
+![Grooveboard Choc PCB](https://i.imgur.com/bqnpp9g.jpg)
+
 Design by [ianklug](https://ianklug.com). Art by [clue](https://clue.graphics). Made with KiCad 5.
 
 Please clone this repository using the `--recurse-submodules` flag. Many of the required symbol and footprint libraries will not be included otherwise.
-
-**UPDATE 2021-06-30: Alternate versions of Grooveboard MX and Grooveboard Choc have been added using the larger AU variant of the microcontroller. Due to parts availability, these are the designs that will be used for the upcoming limited production run of Grooveboard.**
-
-**Please note that for now, the AU versions require different firmware to the original MU versions as the switches are wired to different pins. This will change soon, as the MU designs will be updated to use the same pin wiring as the AU versions.**
 
 ## Variations
 
@@ -17,17 +15,23 @@ Please clone this repository using the `--recurse-submodules` flag. Many of the 
 
 **Grooveboard Choc:** Compatible with Choc switches only. Uses Kailh Choc hot-swap sockets.
 
+**UPDATE 2021-06-30: There are now two versions of each variation of Grooveboard - MU and AU. Due to chip shortages, it is often difficult to find the smaller QFN variant of the Atmega32u4 processor (MU) that Grooveboard was initially designed with. For this reason, versions of each Grooveboard have been added based on the larger QFP variant (AU). The upcoming production run of Grooveboards will use the AU versions.**
+
 ## Firmware
 
-Grooveboard is powered by [QMK Firmware](https://qmk.fm). You can find the default .hex files in the `firmware` directory.
+Grooveboard is powered by [QMK Firmware](https://qmk.fm). You can find the default .hex file in the `firmware` directory. All versions of Grooveboard use the same default firmware.
 
-Precompiled firmwares are provided for the two versions of Grooveboard (AU and MU). Please choose the firmware for the version of grooveboard that you have - for the moment they are not cross-compatible.
+To flash the firmware, follow the instructions on the [QMK Flashing Firmware page](https://docs.qmk.fm/#/newbs_flashing). You can put the keyboard into bootloader mode by pressing the button on the underside of the board.
 
-To flash firmware, follow the instructions on the [QMK Flashing Firmware page](https://docs.qmk.fm/#/newbs_flashing). You can put the keyboard into bootloader mode by pressing the button on the underside of the board.
+If you are interested in dynamically changing your keymap without re-flashing your board, firmware compatible with [VIA Configurator](https://caniusevia.com) has also been provided. Grooveboard is not currently available in VIA by default, but you can still use it.
 
-If you are interested in dynamically modifying your keymap without reflashing your board, firmwares compatible with [VIA Configurator](https://caniusevia.com) have also been provided. As of now they are not available in VIA by default, but you can still use it. First, flash the keyboard with the VIA version of its firmware.
+First, flash the keyboard with the VIA version of the firmware.
 
-In VIA's Settings, switch on "Show Design Tab." Then choose the new "Design" tab and click the large "Upload" button to add a draft definition for Grooveboard. This draft definition, `ianklug-grooveboard-via-definition.json`, can be found in the `firmware` directory. Once you have done this, the keyboard should be detected by VIA when plugged in, and you can change its keymap dynamically.
+Next, In VIA's Settings, switch on "Show Design Tab."
+
+Then, choose the new "Design" tab and click the large "Upload" button to add a draft definition for Grooveboard. This draft definition, `ianklug-grooveboard-via-definition.json`, can be found in the `firmware` directory.
+
+Once you have done this, the keyboard should be detected by VIA, and you can change its keymap dynamically.
 
 ## Ordering
 
