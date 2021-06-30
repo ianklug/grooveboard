@@ -7,7 +7,7 @@ Please clone this repository using the `--recurse-submodules` flag. Many of the 
 
 **UPDATE 2021-06-30: Alternate versions of Grooveboard MX and Grooveboard Choc have been added using the larger AU variant of the microcontroller. Due to parts availability, these are the designs that will be used for the upcoming limited production run of Grooveboard.**
 
-**Please note that for now, the AU versions require different firmware to the original MU versions as the switches are wired to different pins. This will change soon, as the MU designs (which have not yet been manufactured) will be updated to use the same pin wiring as the AU versions.**
+**Please note that for now, the AU versions require different firmware to the original MU versions as the switches are wired to different pins. This will change soon, as the MU designs will be updated to use the same pin wiring as the AU versions.**
 
 ## Variations
 
