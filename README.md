@@ -3,7 +3,9 @@ A four-key mechanical keyboard for rhythm games.
 
 ![Grooveboard Choc PCB](https://i.imgur.com/bqnpp9g.jpg)
 
-Design by [ianklug](https://ianklug.com). Art by [clue](https://clue.graphics). Made with KiCad 5.
+Design by [ianklug](https://ianklug.com). Art by [clue](https://clue.graphics).
+
+Made with KiCad 5.
 
 Please clone this repository using the `--recurse-submodules` flag. Many of the required symbol and footprint libraries will not be included otherwise.
 
@@ -13,9 +15,9 @@ Please clone this repository using the `--recurse-submodules` flag. Many of the 
 
 **Grooveboard MX:** Compatible with MX switches only. Uses Kailh MX hot-swap sockets.
 
-**Grooveboard Choc:** Compatible with Choc switches only. Uses Kailh Choc hot-swap sockets.
+**Grooveboard Choc:** Compatible with Choc low-profile switches only. Uses Kailh Choc hot-swap sockets.
 
-**UPDATE 2021-06-30: There are now two versions of each variation of Grooveboard - MU and AU. Due to chip shortages, it is often difficult to find the smaller QFN variant of the Atmega32u4 processor (MU) that Grooveboard was initially designed with. For this reason, versions of each Grooveboard have been added based on the larger QFP variant (AU). The upcoming production run of Grooveboards will use the AU versions.**
+**UPDATE (2021-06-30): There are now two versions of each variation of Grooveboard - MU and AU. Due to chip shortages, it is often difficult to find the smaller QFN variant of the Atmega32u4 processor (MU) that Grooveboard was initially designed with. For this reason, versions of each Grooveboard have been added based on the larger QFP variant (AU). The upcoming production run of Grooveboards will use the AU versions.**
 
 ## Firmware
 
