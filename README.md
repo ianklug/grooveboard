@@ -1,7 +1,7 @@
 # Grooveboard
 A four-key mechanical keyboard for rhythm games.
 
-![Grooveboard Choc PCB](https://i.imgur.com/bqnpp9g.jpg)
+![Grooveboard Choc PCB](https://i.imgur.com/wbMkbHX.jpg)
 
 Design by [ianklug](https://ianklug.com). Art by [clue](https://clue.graphics).
 
