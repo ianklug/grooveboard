@@ -9,7 +9,7 @@ Made with KiCad 5.
 
 Please clone this repository using the `--recurse-submodules` flag. Many of the required symbol and footprint libraries will not be included otherwise.
 
-## Variations
+## Versions
 
 **Grooveboard:** Compatible with MX, Choc, or Alps switches. Switches must be soldered.
 
@@ -17,7 +17,7 @@ Please clone this repository using the `--recurse-submodules` flag. Many of the 
 
 **Grooveboard Choc:** Compatible with Choc low-profile switches only. Uses Kailh Choc hot-swap sockets.
 
-There are two versions of each variation of Grooveboard - MU and AU. It is often difficult to find the smaller QFN variant (MU) of the Atmega32u4 processor that Grooveboard was initially designed with. For this reason, versions of each Grooveboard have been added based on the larger QFP variant (AU). Both work identically and use the same firmware.
+There are two variations of each version of Grooveboard - MU and AU. It is often difficult to find the smaller QFN variant (MU) of the Atmega32u4 processor that Grooveboard was initially designed with. For this reason, variations of each Grooveboard have been added based on the larger QFP variant (AU). Both work identically and use the same firmware.
 
 ## Firmware
 
