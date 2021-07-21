@@ -29,7 +29,7 @@ For more advanced functionality, you may also customize using [QMK Configurator]
 
 ## Ordering
 
-Grooveboards are occasionally in stock for direct purchase at [my web store](https://shop.ianklug.com). For stock updates, subscribe to the newsletter available there.
+Grooveboards are occasionally in stock for direct purchase at [my web store](https://shop.ianklug.com/products/grooveboard). For stock updates, subscribe to the newsletter available there.
 
 If they are not currently on sale, and the parts are in stock, the least expensive way to obtain a Grooveboard for yourself is likely from [JLCPCB](https://jlcpcb.com). However, they have a minimum order quantity of five boards.
 
