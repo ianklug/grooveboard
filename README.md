@@ -17,7 +17,7 @@ Please clone this repository using the `--recurse-submodules` flag. Many of the 
 
 **Grooveboard Choc:** Compatible with Choc low-profile switches only. Uses Kailh Choc hot-swap sockets.
 
-**UPDATE (2021-06-30): There are now two versions of each variation of Grooveboard - MU and AU. Due to chip shortages, it is often difficult to find the smaller QFN variant (MU) of the Atmega32u4 processor that Grooveboard was initially designed with. For this reason, versions of each Grooveboard have been added based on the larger QFP variant (AU). The upcoming production run of Grooveboards will use the AU versions.**
+There are two versions of each variation of Grooveboard - MU and AU. It is often difficult to find the smaller QFN variant (MU) of the Atmega32u4 processor that Grooveboard was initially designed with. For this reason, versions of each Grooveboard have been added based on the larger QFP variant (AU). Both work identically and use the same firmware.
 
 ## Firmware
 
