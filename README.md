@@ -31,7 +31,11 @@ For more advanced functionality, you may also customize using [QMK Configurator]
 
 Zipped gerber files are present for each variation of Grooveboard. They are called `<variation>-gerbers-v1.zip`.
 
-The least expensive way to obtain a Grooveboard for yourself if they are not currently on sale is likely from [JLCPCB](https://jlcpcb.com). However, they have a minimum order quantity of five boards.
+Grooveboards are occasionally in stock for direct purchase at [my web store](https://shop.ianklug.com). For stock updates, subscribe to the newsletter available there.
+
+If they are not currently on sale, and the parts are in stock, the least expensive way to obtain a Grooveboard for yourself is likely from [JLCPCB](https://jlcpcb.com). However, they have a minimum order quantity of five boards.
+
+**Manufacture at your own risk. I am not responsible for boards that are not sold by me.**
 
 If you will be ordering from JLCPCB, use `<variation>-gerbers-jlcpcb-v1.zip`, and make sure to choose "Specify a location" under "Remove Order Number".
 
