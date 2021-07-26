@@ -11,11 +11,11 @@ Please clone this repository using the `--recurse-submodules` flag. Many of the 
 
 ## Versions
 
-**Grooveboard:** Compatible with MX, Choc, or Alps style switches. Switches must be soldered.
+**Grooveboard:** Compatible with MX, Choc, or Alps-style switches. Switches must be soldered.
 
-**Grooveboard MX:** Compatible with MX style switches only. Uses Kailh MX hot-swap sockets.
+**Grooveboard MX:** Compatible with MX-style switches only. Uses Kailh MX hot-swap sockets.
 
-**Grooveboard Choc:** Compatible with Choc style low-profile switches only. Uses Kailh Choc hot-swap sockets.
+**Grooveboard Choc:** Compatible with Choc-style low-profile switches only. Uses Kailh Choc hot-swap sockets.
 
 There are two variations of each version of Grooveboard - MU and AU. It is often difficult to find the smaller QFN variant (MU) of the Atmega32u4 processor that Grooveboard was initially designed with. For this reason, variations of each Grooveboard have been added based on the larger QFP variant (AU). Both types work identically and use the same firmware.
 
@@ -43,6 +43,6 @@ If you will be ordering from JLCPCB, use `<variation>-gerbers-jlcpcb-v1.zip`. Th
 
 Production Grooveboards are two-layer FR4, 1.6mm thick, 118x23mm. Choose your quantity of boards and your preferred solder mask color. Make sure to choose "Specify a location" under "Remove Order Number" so that the order number is printed where expected. You can typically leave everything else at default.
 
-Attempting to hand-solder Grooveboards from scratch is not recommended due to the small size of the surface-mount components and their pads. PCB assembly services such as JLCPCB's will source and assemble all the small parts on the bottom of the board for you, so all you will need to solder yourself is the USB-C connector on the front, and the hot-swap sockets on the back (if building a hot-swap model). For the USB connector, use a [GCT USB4085](https://gct.co/connector/usb4085). For the hot-swap sockets, use [Kailh sockets](https://www.kailhswitch.com/mechanical-keyboard-switches/box-switches/mechanical-keyboard-switches-kailh-pcb-socket.html). Please note that the sockets are different for MX switches and Choc switches!
+Attempting to hand-solder Grooveboards from scratch is only possible for the AU variant, and is NOT RECOMMENDED due to the small size of the surface-mount components and their pads. PCB assembly services such as JLCPCB's will source and assemble all the small parts on the bottom of the board for you, so all you will need to solder yourself is the USB-C connector on the front, and the hot-swap sockets on the back (if building a hot-swap model). For the USB connector, use a [GCT USB4085](https://gct.co/connector/usb4085). For the hot-swap sockets, use [Kailh sockets](https://www.kailhswitch.com/mechanical-keyboard-switches/box-switches/mechanical-keyboard-switches-kailh-pcb-socket.html). **Sockets are different for MX switches and Choc switches! Make sure to order the right kind.**
 
 If you will use JLCPCB's SMT assembly service, select assembly for the bottom of the board. No tooling holes are included in the gerbers, so select "Added by JLCPCB" under "Tooling Holes". On the next page, use `<variation>-bom.csv` and `<variation>-bottom-pos.csv` for your BOM and Centroid files. Before finalizing your order, please ensure that the parts shown in the diagram are placed correctly over their pads, and in the correct orientation.
