@@ -33,7 +33,7 @@ Grooveboards are sometimes in stock for direct purchase at [my web store](https:
 
 If they are not currently on sale, and the parts are in stock, you can manufacture them yourself.
 
-The least expensive way to obtain your own Grooveboards is likely from [JLCPCB](https://jlcpcb.com). For a little more, I can also personally recommend [PCBWay](https://pcbway.com/). **Please note that most manufacturers have a minimum order quantity of five boards.**
+The least expensive way to obtain your own Grooveboards is likely from [JLCPCB](https://jlcpcb.com). I can also personally recommend [PCBWay](https://pcbway.com/). **Please note that most manufacturers have a minimum order quantity of five boards.**
 
 **Manufacture at your own risk. I am not responsible for boards that are not sold by me.**
 
