@@ -39,7 +39,7 @@ The least expensive way to obtain your own Grooveboards is likely from [JLCPCB](
 
 Zipped gerber files are present for each variation of Grooveboard. They are called `<variation>-gerbers-v1.zip` and should be compatible with nearly all PCB manufacturing services.
 
-If you will be ordering from JLCPCB, use `<variation>-gerbers-jlcpcb-v1.zip`. These gerbers have the serial number placed in an easily-readable location on the back of the board.
+If you will be ordering from JLCPCB, use `<variation>-gerbers-jlcpcb-v1.zip`. These gerbers have the JLCPCB serial number placed in an easily-readable location on the back of the board.
 
 Production Grooveboards are two-layer FR4, 1.6mm thick, 118x23mm. Choose your quantity of boards and your preferred solder mask color. Make sure to choose "Specify a location" under "Remove Order Number" so that the order number is printed where expected. You can typically leave everything else at default.
 
