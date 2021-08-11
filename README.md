@@ -45,10 +45,8 @@ I can personally recommend [JLCPCB](https://jlcpcb.com) or [PCBWay](https://pcbw
 
 Zipped gerber files are present for the production designs of each variation of Grooveboard. They are called `<variation>-gerbers-v1.zip` and should be compatible with most PCB manufacturing services.
 
-If you will be ordering from JLCPCB, use `<variation>-gerbers-jlcpcb-v1.zip`. These gerbers have the JLCPCB serial number placed in an easily-readable location on the back of the board.
+If you will be ordering from JLCPCB, use `<variation>-gerbers-jlcpcb-v1.zip`. These gerbers have the JLCPCB serial number placed in an easily-readable location on the back of the board. Make sure to choose "Specify a location" under "Remove Order Number" so that this number is printed where expected.
 
-Production Grooveboards are two-layer FR4, 1.6mm thick, and measure 118x23mm. Choose your quantity of boards and your preferred solder mask color. Make sure to choose "Specify a location" under "Remove Order Number" so that the order number is printed where expected. You can typically leave everything else at default.
-
-Select assembly for the bottom of the board. No tooling holes are included in the gerbers, so select "Added by JLCPCB" under "Tooling Holes". On the next page, use `<variation>-bom.csv` and `<variation>-bottom-pos.csv` for your BOM and Centroid files. Before finalizing your order, please ensure that the parts shown in the diagram are placed correctly over their pads, and in the correct orientation.
+Production Grooveboards are two-layer FR4, 1.6mm thick, and measure 118x23mm. BOM and Centroid files are present for each board in the format expected by JLCPCB.
 
 For the USB connector, you should use a [GCT USB4085](https://gct.co/connector/usb4085). For the hot-swap sockets, use [Kailh sockets](https://www.kailhswitch.com/mechanical-keyboard-switches/box-switches/mechanical-keyboard-switches-kailh-pcb-socket.html). **Sockets are different for MX switches and Choc switches! Make sure to use the right kind for the model you have chosen.** You probably also want to add rubber or silicone feet to stabilize your Grooveboard and prevent it from slipping. The production models use four 6x2mm circular bumpers.
