@@ -29,7 +29,7 @@ For more advanced functionality, you may also customize Grooveboard using [QMK C
 
 ## Ordering
 
-Grooveboards are sometimes available for direct purchase at [my web store](https://shop.ianklug.com/products/grooveboard). As of August 2021, they are actively being produced. For stock updates, subscribe to the newsletter available there.
+Grooveboards are sometimes available for direct purchase at [my web store](https://shop.ianklug.com/products/grooveboard). As of November 2021, they are actively being produced, although sourcing parts is very difficult at the moment so there is no specific timeline for availability. For stock updates, please subscribe to the newsletter available at the bottom of the store page.
 
 If they are not currently on sale, or you have modified the design, you may wish to manufacture them yourself.
 
@@ -50,3 +50,16 @@ If you will be ordering from JLCPCB, use `<variation>-gerbers-jlcpcb-v1.zip`. Th
 Production Grooveboards are two-layer FR4, 1.6mm thick, and measure 118x23mm. BOM and Centroid files are present for each board in the format expected by JLCPCB.
 
 For the USB connector, you should use a [GCT USB4085](https://gct.co/connector/usb4085). For the hot-swap sockets, use [Kailh sockets](https://www.kailhswitch.com/mechanical-keyboard-switches/box-switches/mechanical-keyboard-switches-kailh-pcb-socket.html). **Sockets are different for MX switches and Choc switches! Make sure to use the right kind for the model you have chosen.** You probably also want to add rubber or silicone feet to stabilize your Grooveboard and prevent it from slipping. The production models use four 6x2mm circular bumpers.
+
+## License
+
+Shield: [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
+
+This work is licensed under a
+[Creative Commons Attribution-ShareAlike 4.0 International License][cc-by-sa].
+
+[![CC BY-SA 4.0][cc-by-sa-image]][cc-by-sa]
+
+[cc-by-sa]: http://creativecommons.org/licenses/by-sa/4.0/
+[cc-by-sa-image]: https://licensebuttons.net/l/by-sa/4.0/88x31.png
+[cc-by-sa-shield]: https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg
