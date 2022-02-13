@@ -5,7 +5,7 @@ A four-key mechanical keyboard for rhythm games.
 
 Design by [ianklug](https://ianklug.com). Art by [clue](https://clue.graphics).
 
-Made with KiCad 5.
+Made with KiCad.
 
 *Please clone this repository using the `--recurse-submodules` flag. Many of the required symbol and footprint libraries will not be included otherwise.*
 
@@ -29,7 +29,7 @@ For more advanced functionality, you may also customize Grooveboard using [QMK C
 
 ## Ordering
 
-Grooveboards are sometimes available for direct purchase at [my web store](https://shop.ianklug.com/products/grooveboard). As of November 2021, they are actively being produced, although sourcing parts is very difficult at the moment so there is no specific timeline for availability. For stock updates, please subscribe to the newsletter available at the bottom of the store page.
+Grooveboards are sometimes available for direct purchase at [my web store](https://kayboards.com/products/grooveboard). As of February 2022, they are actively being produced, although sourcing parts is very difficult at the moment so there is no specific timeline for availability. For stock updates, please subscribe to the newsletter available at the bottom of the store page.
 
 If they are not currently on sale, or you have modified the design, you may wish to manufacture them yourself.
 
