@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name keebio)(type Legacy)(uri ${KIPRJMOD}/../modules/keebio-components/keebio.lib)(options "")(descr ""))
+  (lib (name MX_Alps_Hybrid)(type Legacy)(uri "${KIPRJMOD}/../modules/MX_Alps_Hybrid.pretty/Schematic Library/MX_Alps_Hybrid.lib")(options "")(descr ""))
+  (lib (name Type-C)(type Legacy)(uri ${KIPRJMOD}/../modules/Type-C.pretty/Type-C.lib)(options "")(descr ""))
+  (lib (name rp2040)(type Legacy)(uri C:/Users/ian/Documents/GitHub/bemini/modules/rp2040.lib)(options "")(descr ""))
+)

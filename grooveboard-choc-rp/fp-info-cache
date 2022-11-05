@@ -1,4 +1,4 @@
-17923163854744849
+17928149975507575
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -76356,6 +76356,13 @@ grooveboard-logo
 0
 0
 grooveboard
+kayboards-logo
+
+
+0
+0
+0
+grooveboard
 left-arrow
 
 
@@ -79512,3 +79519,17 @@ JST PH series connector, S2B-PH-SM4-TB
 0
 4
 2
+rp2040
+RP2040
+
+
+0
+57
+57
+winbond
+W25Q128JVPIQ
+
+
+0
+9
+9
