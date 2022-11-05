@@ -55,7 +55,7 @@ Zipped gerber files are present for the production designs of each variation of 
 
 If you will be ordering from JLCPCB, use `<variation>-gerbers-jlcpcb-<version>.zip`. These gerbers have the JLCPCB serial number placed in an easily-readable location on the back of the board. Make sure to choose "Specify a location" under "Remove Order Number" so that this number is printed where expected.
 
-Production Grooveboards are two-layer FR4, 1.6mm thick, and measure 120x25mm. They are assembled using lead-free solder. BOM and Centroid files are present for each board in the format expected by JLCPCB.
+Production Grooveboards are two-layer FR4, 1.6mm thick. The RP2040 versions measure 120x25mm. They are assembled using lead-free solder. BOM and Centroid files are present for each board in the format expected by JLCPCB.
 
 The USB connector is a [GCT USB4085](https://gct.co/connector/usb4085). The hot-swap sockets are [Kailh sockets](https://www.kailhswitch.com/mechanical-keyboard-switches/box-switches/mechanical-keyboard-switches-kailh-pcb-socket.html). **Sockets are different for MX switches and Choc switches! Make sure to use the right kind for the model you have chosen.**
 
