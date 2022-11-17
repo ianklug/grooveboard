@@ -87,7 +87,7 @@ U 1 1 60A19665
 P 2125 3750
 F 0 "K4" H 2100 3975 60  0000 C CNN
 F 1 "MX-NoLED" H 2100 3900 20  0000 C CNN
-F 2 "keyswitches:Kailh_socket_PG1350" H 1500 3725 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket_MX" H 1500 3725 60  0001 C CNN
 F 3 "" H 1500 3725 60  0001 C CNN
 	1    2125 3750
 	1    0    0    -1  
@@ -111,7 +111,7 @@ U 1 1 60A187FF
 P 1800 3750
 F 0 "K3" H 1775 3975 60  0000 C CNN
 F 1 "MX-NoLED" H 1775 3900 20  0000 C CNN
-F 2 "keyswitches:Kailh_socket_PG1350" H 1175 3725 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket_MX" H 1175 3725 60  0001 C CNN
 F 3 "" H 1175 3725 60  0001 C CNN
 	1    1800 3750
 	1    0    0    -1  
@@ -135,7 +135,7 @@ U 1 1 60A17670
 P 1475 3750
 F 0 "K2" H 1450 3975 60  0000 C CNN
 F 1 "MX-NoLED" H 1450 3900 20  0000 C CNN
-F 2 "keyswitches:Kailh_socket_PG1350" H 850 3725 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket_MX" H 850 3725 60  0001 C CNN
 F 3 "" H 850 3725 60  0001 C CNN
 	1    1475 3750
 	1    0    0    -1  
@@ -159,7 +159,7 @@ U 1 1 60A03FDE
 P 1150 3750
 F 0 "K1" H 1125 3975 60  0000 C CNN
 F 1 "MX-NoLED" H 1125 3900 20  0000 C CNN
-F 2 "keyswitches:Kailh_socket_PG1350" H 525 3725 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket_MX" H 525 3725 60  0001 C CNN
 F 3 "" H 525 3725 60  0001 C CNN
 	1    1150 3750
 	1    0    0    -1  
