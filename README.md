@@ -35,12 +35,6 @@ Grooveboard ships by default with firmware supporting [VIA Configurator](https:/
 
 For more advanced functionality, you may also customize Grooveboard using [QMK Configurator](https://config.qmk.fm), or by using QMK on the command line. This will require a reflash of your board's firmware. Use [QMK Toolbox](https://github.com/qmk/qmk_toolbox) to flash if on Windows or MacOS, or the QMK CLI with avrdude on Linux.
 
-## Ordering
-
-Grooveboards are sometimes available for direct purchase at [my web store](https://kayboards.com/products/grooveboard). As of 2022, they are actively being produced, although there is no specific timeline for availability. For stock updates, please subscribe to the newsletter available at the bottom of the store page.
-
-If they are not currently on sale, or you have modified the design, you may wish to manufacture them yourself.
-
 ## Manufacturing
 
 **Manufacture at your own risk. I can not guarantee the quality or functionality of boards not sold directly by me.**
