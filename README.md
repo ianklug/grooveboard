@@ -13,7 +13,7 @@ Made with [KiCad](https://www.kicad.org/).
 
 ## Versions
 
-*Please note that the RP2040 models are currently PROTOTYPES and are not yet validated for production.*
+*Please note that the RP2040 models are functional at a hardware level, but software is incomplete.*
 
 The 2.x versions (grooveboard-rp) use the RP2040 MCU, and require different firmware from the 1.x versions. They also include a few new features and refinements over the 1.x models, including M2 mounting holes and improved key spacing.
 
